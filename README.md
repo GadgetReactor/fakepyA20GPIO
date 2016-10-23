@@ -1,2 +1,8 @@
 # fakepyA20GPIO
-Fake pyA20 GPIO package for testing of an Orange Pi
+
+Inspired by the fake RPI GPIO package.
+
+This package only contains the functions in the pyA20 / orangepi_PC_gpio_pyH3 package without the functionality. 
+
+Useful to debug code outside the OPi.
+
