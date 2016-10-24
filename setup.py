@@ -3,6 +3,7 @@
 
 from distutils.core import setup
 import os
+from gpio import gpio
 
 
 def get_packages(package):
