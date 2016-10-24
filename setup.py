@@ -32,6 +32,8 @@ def get_package_data(package):
 setup(
     name='fakepyA20GPIO',
     version='0.1.0',
+    packages=get_packages('pyA20'),
+    package_data=get_package_data('pyA20'),
     description='fakeOPiGPIO is a package to simulate the pyA20 package',
     long_description=open('README.md').read(),
     url='https://github.com/gadgetreactor/fakepyA20GPIO',
