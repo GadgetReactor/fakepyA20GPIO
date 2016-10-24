@@ -3,7 +3,7 @@
 
 from distutils.core import setup
 import os
-from gpio import gpio
+from pyA20.gpio import gpio
 
 
 def get_packages(package):
