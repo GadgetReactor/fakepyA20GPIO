@@ -40,7 +40,6 @@ setup(
     author='Sean Seah',
     license='MIT',
     keywords='OPi fake GPIO',
-    packages=['pyA20'],
     install_requires=[],
 
 )
